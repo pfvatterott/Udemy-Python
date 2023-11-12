@@ -34,6 +34,6 @@ def calculator():
         print(f"{first_number} {operation} {second_number} = {total}")
         continueMathing = input(f"Type 'y' to continue calculating with {total}, or type 'n' to start a new calculation: ").lower()
     if (continueMathing == 'n'):
-        main_function()    
+        calculator()    
 
 calculator()
