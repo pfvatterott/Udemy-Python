@@ -33,7 +33,7 @@ while game_is_on:
         
     if (ball.distance(right_paddle) < 50 and ball.xcor()) > 320 or (ball.distance(left_paddle) < 50 and ball.xcor()) < -320:
         ball.bounce_x()
-        sleep_counter *= 0.9
+        sleep_counter -= .002
         
     if ball.xcor() > 400:
         ball.reset_position()
