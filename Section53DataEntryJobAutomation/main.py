@@ -13,6 +13,6 @@ for property in property_list:
     form_populator.populate_form(property=property)
     form_populator.reload_form()
     
-form_populator.self.driver.close()
-form_populator.self.driver.quit()
+form_populator.driver.close()
+form_populator.driver.quit()
 
